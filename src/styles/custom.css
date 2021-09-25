@@ -1,0 +1,140 @@
+@layer components {
+  nav {
+    @apply absolute top-0 left-0 w-full z-10 bg-transparent md:flex-row md:flex-nowrap md:justify-start flex items-center p-4;
+  }
+
+  .navMain {
+    @apply md:left-0 md:block md:fixed md:top-0 md:bottom-0 md:overflow-y-auto md:flex-row md:flex-nowrap md:overflow-hidden bg-gradient-to-b from-red-quick to-red-quick-2 flex flex-wrap items-center justify-between relative md:w-20 z-20 p-2 rounded-r-large shadow-3xl;
+  }
+
+  .menuLeft-1 {
+    @apply md:flex-col md:items-stretch md:min-h-full md:flex-nowrap py-12 flex flex-wrap items-center text-center w-full mx-auto text-3xl;
+  }
+
+  .navMain-2 {
+    @apply md:left-0 md:pl-24 md:block md:fixed md:top-0 md:bottom-0 md:overflow-y-auto md:flex-row md:flex-nowrap md:overflow-hidden bg-white flex flex-wrap items-center justify-between relative md:w-80 z-10 py-12 px-6 rounded-r-large shadow-2xl;
+  }
+
+  .menuLeft-2 {
+    @applt md:flex-col md:items-stretch md:min-h-full md:flex-nowrap px-0 flex flex-wrap items-center justify-between w-full mx-auto;
+  }
+
+  .iconClick-menuLeft1 {
+    @apply text-white flex flex-col text-center items-center py-3 cursor-pointer hover:bg-gray-50 hover:bg-opacity-10 rounded-md;
+  }
+
+  .titleMainMenu {
+    @apply md:block text-left md:pb-2 text-gray-600 mr-0 inline-block whitespace-nowrap uppercase p-4 px-0 py-2;
+  }
+
+  .inputLogin {
+    @apply font-light flex-1 border border-gray-400 rounded-full w-full px-6 py-2.5 outline-none shadow-md;
+  }
+
+  .boxListmenu {
+    @apply md:flex md:flex-col md:items-stretch md:opacity-100 md:relative md:mt-0 md:shadow-none shadow absolute top-0 left-0 right-0 z-40 overflow-y-auto overflow-x-hidden h-auto items-center flex-1 rounded;
+  }
+
+  .titleMenu {
+    @apply md:min-w-full text-gray-700 text-base uppercase block pt-1 pb-4 no-underline;
+  }
+
+  .topBar-main {
+    @apply fixed w-full bg-coany text-white py-4 px-1 shadow-md bg-fixed items-center;
+  }
+  .topBar {
+    @apply fixed w-full flex flex-row bg-gray-500 text-white py-3 px-1 shadow-md bg-fixed items-center;
+  }
+
+  .link-default {
+    @apply text-indigo-600 hover:text-indigo-900 cursor-pointer;
+  }
+
+  .table-custom {
+    @apply min-w-full divide-y divide-gray-300 text-sm border border-b-0;
+  }
+
+  .icon-chevron-left {
+    @apply w-3.5 text-white cursor-pointer;
+  }
+  .icon-bell {
+    @apply w-3.5 text-white cursor-pointer;
+  }
+  .icon-help-care {
+    @apply flex-none h-6 items-center w-10 mx-2 flex justify-center cursor-pointer;
+  }
+  .icon-click-back {
+    @apply flex-none h-6 items-center w-10 mx-2 flex justify-center;
+  }
+  .icon-click-bell {
+    @apply flex-none h-6 items-center w-10 mx-2 flex justify-center;
+  }
+
+  .btnNumber {
+    @apply w-14 h-14 border-gray-500 border-2 rounded-full items-center justify-center flex text-xl hover:bg-gray-400 hover:text-white hover:border-gray-400;
+  }
+
+  .statusUser {
+    @apply px-4 inline-flex text-sm leading-5 rounded-full bg-green-100 text-green-800;
+  }
+
+  .labelTitle {
+    @apply py-1 text-base;
+  }
+
+  .req {
+    @apply text-red;
+  }
+
+  .radioCheck {
+    @apply h-6 w-6 text-red-quick outline-none focus:ring-0;
+  }
+
+  .boxMain {
+    @apply flex flex-col bg-white px-8 py-6 rounded-md shadow-md sm:w-full;
+  }
+
+  .boxLogin {
+    @apply flex flex-col my-3 bg-white rounded-lg shadow-md py-12 mx-auto items-center justify-center space-y-5;
+  }
+
+  .btnLogin {
+    @apply flex py-3 w-full rounded-full justify-center bg-red-quick text-white text-center items-center hover:bg-opacity-80 hover:shadow cursor-pointer shadow-md;
+  }
+
+  .btnCreate {
+    @apply py-2 px-6 rounded-full bg-red-quick text-white  flex items-center hover:bg-opacity-80 hover:shadow cursor-pointer;
+  }
+
+  .btnCancel {
+    @apply py-2 px-6 rounded-full bg-gray-500 text-white  flex items-center hover:bg-opacity-80 hover:shadow cursor-pointer;
+  }
+
+  .btn_previous {
+    @apply relative inline-flex items-center px-2 py-2 rounded-l-md border  bg-white text-sm font-medium text-gray-500 hover:bg-gray-50;
+  }
+
+  .btn_number {
+    @apply bg-white border-gray-300 relative inline-flex items-center px-4 py-2 border text-sm;
+  }
+
+  .btn_next {
+    @apply relative inline-flex items-center px-2 py-2 rounded-r-md border  bg-white text-gray-500 hover:bg-gray-50;
+  }
+
+  .label_active {
+    @apply px-4 inline-flex text-sm leading-5 rounded-full bg-green-100 text-green-800;
+  }
+
+  .input-form {
+    @apply font-light flex-1 border border-gray-400 rounded-md w-full px-4 outline-none focus:outline-none focus:ring-1 focus:ring-blue-200;
+  }
+
+  .input-footer {
+    @apply font-light flex-1 border border-gray-400 rounded-md px-4 outline-none focus:outline-none focus:ring-1 focus:ring-blue-200;
+  }
+
+  .input-number-form {
+    @apply font-light flex-1 border block border-gray-400 rounded-md text-center outline-none focus:outline-none focus:ring-1 focus:ring-blue-200;
+  }
+}
